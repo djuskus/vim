@@ -1,0 +1,15 @@
+{
+    "workspace.library": [
+        "/home/tomas/.config/nvim",
+        "/home/tomas/.config/nvim/pack/github/start/copilot.vim",
+        "/home/tomas/.local/share/nvim/plugged/nvim-jdtls",
+        "/home/tomas/.local/share/nvim/plugged/nvim-lspconfig",
+        "/home/tomas/.local/share/nvim/plugged/nvim-treesitter",
+        "/home/tomas/.local/share/nvim/plugged/vim-one",
+        "/home/tomas/.local/share/nvim/plugged/gruvbox",
+        "/home/tomas/.local/share/nvim/site",
+        "/usr/local/share/nvim/runtime",
+        "/usr/local/lib/nvim",
+        "${3rd}/luassert/library"
+    ]
+}

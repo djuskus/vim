@@ -27,5 +27,7 @@ call plug#end()
 " disable copilot by default
 let g:copilot#enabled = 0
 
+
+lua package.path = package.path .. ';~/.config/nvim/lua/?.lua'
 " import lua plugins
 lua require('altInit')
