@@ -10,6 +10,14 @@ call plug#begin()
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 
 Plug 'mfussenegger/nvim-jdtls'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+"red theme
+Plug 'rakr/vim-one'
+
+"gruvbox theme
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 " You can revert the settings after the call like so:
@@ -19,3 +27,5 @@ call plug#end()
 " disable copilot by default
 let g:copilot#enabled = 0
 
+" import lua plugins
+lua require('altInit')
