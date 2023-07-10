@@ -18,6 +18,7 @@ Plug 'rakr/vim-one'
 
 "gruvbox theme
 Plug 'morhetz/gruvbox'
+Plug 'pablopunk/sunset.vim'
 
 call plug#end()
 " You can revert the settings after the call like so:
